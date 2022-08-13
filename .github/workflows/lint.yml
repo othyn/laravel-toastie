@@ -1,0 +1,26 @@
+name: Lint
+
+on: ["push", "pull_request"]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    name: Lint | Laravel Pint (PHP-CS-Fixer)
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup PHP & Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1
+          tools: composer:v2
+          coverage: none
+
+      - name: Install PHP dependencies
+        run: composer update --no-interaction --no-progress --ansi
+
+      - name: Run Pint
+        run: ./vendor/bin/pint

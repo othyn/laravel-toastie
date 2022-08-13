@@ -1,0 +1,33 @@
+name: Test
+
+on: ["push", "pull_request"]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        php: ["8.1"]
+        dependency-version: [prefer-lowest, prefer-stable]
+
+    name: Test | PHP ${{ matrix.php }} ~ ${{ matrix.os }} ~ ${{ matrix.dependency-version }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup PHP, XDebug & Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          tools: composer:v2
+          coverage: xdebug
+
+      - name: Install PHP dependencies
+        run: composer update --${{ matrix.dependency-version }} --no-interaction --no-progress --ansi
+
+      - name: Run Tests
+        run: ./vendor/bin/pest --coverage --min=100
+        env:
+          XDEBUG_MODE: coverage

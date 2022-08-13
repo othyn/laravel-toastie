@@ -1,0 +1,31 @@
+name: Static Analysis
+
+on: ["push", "pull_request"]
+
+jobs:
+  stan:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        php: ["8.1"]
+        dependency-version: [prefer-lowest, prefer-stable]
+
+    name: Static Analysis | PHPStan ${{ matrix.dependency-version }} ~ PHP ${{ matrix.php }} ~ ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup PHP & Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          tools: composer:v2
+          coverage: none
+
+      - name: Install PHP dependencies
+        run: composer update --${{ matrix.dependency-version }} --no-interaction --no-progress --ansi
+
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse --no-progress --debug --ansi

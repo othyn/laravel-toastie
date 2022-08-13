@@ -2,7 +2,7 @@
 setup: build composer-install
 
 .PHONY: all
-all: lint analyse test
+all: lint stan test
 
 .PHONY: build
 build:
@@ -16,8 +16,8 @@ composer-install:
 lint:
 	docker compose run --rm toastie-php ./vendor/bin/pint
 
-.PHONY: analyse
-analyse:
+.PHONY: stan
+stan:
 	docker compose run --rm toastie-php ./vendor/bin/phpstan analyse
 
 .PHONY: test
