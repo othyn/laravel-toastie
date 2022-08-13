@@ -318,6 +318,8 @@ This is the easiest way to maximise the utilisation of Toastie if you are not wa
 <x-toastie::shared />
 ```
 
+_**That's it!**_ You're now using Toastie, just call Toastie via one of the [PHP API](#elephant-php-api) methods described above and watch as toast goes everywhere! Enjoy!
+
 Under the hood, this dynamically renders the default toast design, meaning this one isn't overridable - that functionality is reserved for the next two options so keep reading if that's what you want.
 
 This should be the go to option for people just wanting Toastie to do all the work, so you can kick back and have another sip of coffee. Ahhhhhhhh.
