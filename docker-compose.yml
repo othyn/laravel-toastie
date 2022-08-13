@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  toastie-php:
+    container_name: toastie-php
+    image: toastie-php
+    build:
+      context: ./docker/php
+      dockerfile: dockerfile
+    volumes:
+      - ./docker/php/conf.d/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+      - ./docker/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - .:/toastie

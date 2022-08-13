@@ -1,0 +1,28 @@
+{
+    "preset": "symfony",
+    "rules": {
+        "declare_strict_types": true,
+        "no_superfluous_phpdoc_tags": true,
+        "no_blank_lines_after_phpdoc": false,
+        "php_unit_method_casing": {
+            "case": "snake_case"
+        },
+        "yoda_style": {
+            "equal": false,
+            "identical": false,
+            "less_and_greater": false
+        },
+        "binary_operator_spaces": {
+            "operators": {
+                "=>": "align_single_space_minimal",
+                "=": "align_single_space_minimal"
+            }
+        },
+        "phpdoc_to_comment": {
+            "ignored_tags": [
+                "todo",
+                "var"
+            ]
+        }
+    }
+}

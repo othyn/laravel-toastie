@@ -1,0 +1,12 @@
+parameters:
+  level: 7
+  paths:
+    - src
+    - tests
+  inferPrivatePropertyTypeFromConstructor: true
+  checkMissingIterableValueType: false
+  ignoreErrors:
+    - '#Call to an undefined method Illuminate\\Session\\SessionManager\|Illuminate\\Session\\Store::now\(\)#'
+    - '#should return Closure\|Illuminate\\Contracts\\Support\\Htmlable\|Illuminate\\Contracts\\View\\View\|string but returns Illuminate\\Contracts\\View\\Factory\|Illuminate\\Contracts\\View\\View#'
+    - '#Variable \$this in PHPDoc tag \@var does not#'
+    - '#Undefined variable\: \$this#'

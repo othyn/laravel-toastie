@@ -1,0 +1,49 @@
+{
+    "name": "othyn/laravel-toastie",
+    "description": "Simple Toastie notifications with built in defaults for ALT stack (Alpine, Laravel, Tailwind) applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben",
+            "email": "git@othyn.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "illuminate/support": "^9.24"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.6",
+        "pestphp/pest": "^1.21",
+        "laravel/pint": "^1.1",
+        "phpstan/phpstan": "^1.8"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Othyn\\Toastie\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Othyn\\Toastie\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Othyn\\Toastie\\Providers\\ToastieServiceProvider"
+            ],
+            "aliases": {
+                "Toastie": "Othyn\\Toastie\\Facades\\Toastie"
+            }
+        }
+    }
+}
