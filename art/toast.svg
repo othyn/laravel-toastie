@@ -1,32 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg8" sodipodi:docname="toast.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
-  <defs id="defs2">
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1002">
-      <path fill="#ffac33" d="m 142.9592,151.06176 -3.65522,-2.23678 c -0.40375,-0.24712 -1.05833,-0.24712 -1.46235,0 l -1.82774,1.11866 c -0.36539,0.22357 -0.18283,0.33549 -0.54822,0.55906 -0.36539,0.22357 -0.54821,0.11165 -0.91387,0.33549 -0.36565,0.22357 -0.40375,0.64744 0,0.89482 l 3.65522,2.23705 c 0.40375,0.24739 1.0967,0.22437 1.46182,0 0.36592,-0.22357 0.18309,-0.33522 0.54848,-0.55932 0.36539,-0.22331 0.54796,-0.11166 0.91387,-0.33497 0.36592,-0.22436 1.82775,-1.11866 1.82775,-1.11866 0.40375,-0.24712 0.40402,-0.64822 2.6e-4,-0.89535 z" id="path1004" style="fill:#cc927a;fill-opacity:1;stroke-width:0.264583"/>
-    </clipPath>
-    <clipPath id="clipPath3083" clipPathUnits="userSpaceOnUse">
-      <g transform="translate(-0.009692)" id="g3097">
-        <ellipse transform="matrix(0.99452189,-0.10452847,-0.10452847,-0.99452189,0,0)" ry="1.0857824" rx="0.26726952" cy="-147.23386" cx="63.147415" id="ellipse3085" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"/>
-        <ellipse transform="matrix(0.99756405,-0.06975648,-0.06975648,-0.99756405,0,0)" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583" id="ellipse3087" cx="69.373634" cy="-145.2619" rx="0.26726952" ry="1.0857824"/>
-        <ellipse transform="matrix(0.99939083,-0.0348995,-0.0348995,-0.99939083,0,0)" ry="1.0857824" rx="0.26726952" cy="-142.97591" cx="75.539749" id="ellipse3089" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"/>
-        <ellipse transform="matrix(0.99939083,0.0348995,0.0348995,-0.99939083,0,0)" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583" id="ellipse3091" cx="86.474304" cy="-137.31827" rx="0.26726952" ry="1.0857824"/>
-        <ellipse transform="matrix(0.99756405,0.06975648,0.06975648,-0.99756405,0,0)" ry="1.0857824" rx="0.26726952" cy="-133.95348" cx="92.344269" id="ellipse3093" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"/>
-        <ellipse transform="matrix(0.99452189,0.10452847,0.10452847,-0.99452189,0,0)" style="fill:#662113;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583" id="ellipse3095" cx="98.077324" cy="-130.28844" rx="0.26726952" ry="1.0857824"/>
-      </g>
-    </clipPath>
-    <clipPath id="clipPath16" clipPathUnits="userSpaceOnUse">
-      <path id="path18" d="M 0,36 36,36 36,0 0,0 0,36 Z"/>
-    </clipPath>
-  </defs>
-  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.7" inkscape:cx="-92.325066" inkscape:cy="753.83688" inkscape:document-units="mm" inkscape:current-layer="layer1" inkscape:document-rotation="0" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1027" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"/>
-  <metadata id="metadata5">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+<svg viewBox="0 0 200 200" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1">
   <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
     <g transform="matrix(6.2074774,0,0,6.2074774,-849.61362,-828.72687)" inkscape:export-ydpi="1444.926" inkscape:export-xdpi="1444.926" inkscape:export-filename="F:\My Art\SVG &amp; SALES\MOREmoji\SET 3\png\toast.png" id="g2456">
       <path fill="#f4900c" d="m 159.01088,159.10605 -8.99584,-0.13652 v 0.69453 h 0.004 c 0.005,0.1569 0.0939,0.31432 0.28575,0.4318 l 1.82748,1.11866 1.82774,1.11839 c 0.40375,0.24739 1.0967,0.22437 1.46182,0 0.36592,-0.22357 0.18309,-0.33523 0.54848,-0.55933 0.36539,-0.22331 0.54796,-0.11165 0.91387,-0.33496 0.36592,-0.22437 1.82801,-1.1184 1.82801,-1.1184 0.20135,-0.12329 0.30189,-0.28495 0.30242,-0.44688 v -0.001 z" id="path913-4-7-3-8-1" style="fill:#662113;fill-opacity:1;stroke-width:0.264583"/>
