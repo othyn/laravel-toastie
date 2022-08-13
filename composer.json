@@ -15,6 +15,7 @@
         }
     },
     "require": {
+        "php": "^8.1",
         "illuminate/support": "^9.24"
     },
     "require-dev": {

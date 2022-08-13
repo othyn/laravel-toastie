@@ -9,7 +9,7 @@ return [
          *
          * This time can be specified by setting the 'timings.dismiss_delay' value.
          */
-        'auto_dismiss' => env('TOASTIE_DISMISS_IN_MS', true),
+        'auto_dismiss' => env('TOASTIE_AUTO_DISMISS', true),
 
         /*
          * Time, in seconds, that the toast should take to be dismissed when dismissing automatically.
