@@ -19,7 +19,7 @@
             <img src="https://img.shields.io/badge/Test Coverage-100%25-green" alt="coverage" />
         </a>
         <a href="#floppy_disk-install">
-            <img src="https://img.shields.io/packagist/dm/othyn/laravel-toastie?color=green" alt="downloads" />
+            <img src="https://img.shields.io/packagist/dt/othyn/laravel-toastie?color=green" alt="downloads" />
         </a>
         <a href="https://github.com/othyn/laravel-toastie/graphs/contributors">
             <img src="https://img.shields.io/github/contributors/othyn/laravel-toastie" alt="contributors" />
