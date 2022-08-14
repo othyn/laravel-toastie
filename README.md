@@ -73,7 +73,7 @@
 
 ## :star2: About the Project
 
-All the other Laravel Toast libraries out there seemed to have nailed the API for creating Toasts, but the key areas they were lacking in are keeping up to date and :sparkles: style :sparkles:.
+All the other Laravel Toast notification libraries out there seemed to have nailed the API for creating Toasts, but the key areas they were lacking in are keeping up to date and :sparkles: style :sparkles:.
 
 This package aims to solve that by providing a default set of Toasts that look good and are easy to use, with it being very easy to change up the design if you hate the look of them and roll your own!
 
