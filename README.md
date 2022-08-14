@@ -134,7 +134,7 @@ Toastie has support for 4 key toast types/states; Success, Info, Warning and Err
 Installation can be done via [Composer](https://getcomposer.org/):
 
 ```sh
-$ composer require othyn/laravel-toastie
+composer require othyn/laravel-toastie
 ```
 
 Next you are going to want to head down to the [configuration](#wrench-configuration), so lets get started on [usage](#hammer_and_wrench-usage)! See you there.
