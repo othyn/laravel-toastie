@@ -171,7 +171,7 @@ Hello again! First thing we're going to need to do is publish the configuration 
 We do this my telling Laravel to publish the config file into our working directory, instead of relying on the default one bundled with this package:
 
 ```sh
-$ php artisan vendor:publish \
+php artisan vendor:publish \
     --provider="Othyn\\Toastie\\Providers\\ToastieServiceProvider" \
     --tag="toastie-config"
 ```
@@ -370,7 +370,7 @@ Under the hood, its just pulling in each component directly, meaning if you want
 So, don't like that default Toastie design eh? Well then, I suppose I better tell you how to change it. First, we need to publish Toastie's view set into your project so you can customise it:
 
 ```sh
-$ php artisan vendor:publish \
+php artisan vendor:publish \
     --provider="Othyn\\Toastie\\Providers\\ToastieServiceProvider" \
     --tag="toastie-views"
 ```
