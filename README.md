@@ -137,6 +137,8 @@ Installation can be done via [Composer](https://getcomposer.org/):
 composer require othyn/laravel-toastie
 ```
 
+After installation you will need to do a fresh build of any assets via your frontend build tool of choice, which is probably [Vite](https://vitejs.dev/). This is so that the Tailwind bundler can pickup the new views and load in the classes the package uses (if they haven't already been bundled via usage elsewhere in your application) into your app bundles. You may also need to restart any Docker containers if you are still having issues.
+
 Next you are going to want to head down to the [configuration](#wrench-configuration), so lets get started on [usage](#hammer_and_wrench-usage)! See you there.
 
 ### Version Matrix
