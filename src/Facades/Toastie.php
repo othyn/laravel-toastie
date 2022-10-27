@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Othyn\Toastie\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Othyn\Toastie\Services\Toastie as ConcreteToastie;
 
 /**
  * Creates Toasties!
@@ -23,6 +22,6 @@ class Toastie extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return ConcreteToastie::class;
+        return 'toastie';
     }
 }
